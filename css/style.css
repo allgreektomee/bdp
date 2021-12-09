@@ -714,9 +714,9 @@ ol {
 }
 
 .testimonial-item .ti-pic img {
-	height: 128px;
-	width: 128px;
-	border-radius: 50%;
+	height: 250px;
+	width: 150px;
+	/*border-radius: 50%;*/
 }
 
 .testimonial-item .ti-text {
