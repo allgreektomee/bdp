@@ -343,6 +343,7 @@ ol {
 -----------------------*/
 
 .hero-section {
+	background: #191919;
 	height: 800px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -355,17 +356,44 @@ ol {
 .hs-text span {
 	color: #e32879;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 }
 
 .hs-text h2 {
+
 	color: #ffffff;
 	font-size: 60px;
 	font-weight: 700;
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
+
+.hs-text h3 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+.hs-text h4 {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.hs-text h5 {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 
 .hs-text p {
 	color: #ffffff;
@@ -394,7 +422,7 @@ ol {
 }
 
 .as-text .section-title {
-	text-align: left;
+	text-align: center;
 	margin-bottom: 15px;
 }
 
@@ -404,6 +432,7 @@ ol {
 
 .as-text p.f-para {
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .as-text p.s-para {
@@ -461,7 +490,7 @@ ol {
 	text-align: center;
 	background: #222222;
 	padding: 46px 50px 0;
-	height: 325px;
+	height: 300px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -479,6 +508,26 @@ ol {
 	margin-top: 33px;
 	margin-bottom: 25px;
 }
+
+.service-item img {
+	height: 200px;
+	width: 230px;
+}
+
+.card {
+	position: relative;
+    	width: 100%;
+    	height: 0;
+    	padding-top: calc(300 / 1000 * 100%);
+	img {
+	    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+	}
+}
+
 
 /*---------------------
   Portfolio Section
@@ -1153,6 +1202,7 @@ ol {
 -----------------------*/
 
 .blog-hero-section {
+	background: #000000;
 	padding-top: 130px;
 	padding-bottom: 120px;
 }
